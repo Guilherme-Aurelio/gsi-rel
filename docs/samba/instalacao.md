@@ -57,12 +57,15 @@ nano /etc/hosts
 ::1             localhost localhost.localdomain
 127.0.1.1       goiania.goias.lab goiania
 ```
+![](hosts.png)
+
 
 ### Testar a configuração de hostname
 ```bash
 ping goiania
 ping goiania.goias.lab
 ```
+![](ping.png)
 
 ## 2. Sincronização de Hora
 
@@ -116,6 +119,7 @@ nano /etc/samba/smb.conf
     path = /var/lib/samba/sysvol
     read only = No
 ```
+![](./smb-conf.png)
 
 ### Criar diretórios necessários
 ```bash
@@ -229,10 +233,10 @@ rc-service samba start
 ```bash
 ss -tnl
 ```
-
+![](ports.png)
 ## 5. Verificar o Nível do Domínio
 ```bash
 samba-tool domain level show
 ``` 
-
+![](domain-level.png)
 ### Essa documentação cobre os principais passos para instalar e configurar o Samba como controlador de domínio no Alpine Linux.
