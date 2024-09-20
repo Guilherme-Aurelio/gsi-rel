@@ -85,3 +85,5 @@ OU=RE: Outra unidade organizacional, talvez relacionada à reitoria.
 
 OU=IFRN: Unidade principal que representa a instituição IFRN.
 ```
+
+[Documento manuscrito .pdf](documento-manuscrito.pdf)
