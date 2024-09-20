@@ -19,9 +19,7 @@ Dica:
 
 
 
-
-Aqui está a documentação em Markdown da instalação do samba-tool no Alpine Linux com base nos comandos fornecidos:
-
+---
 # Instalação e Configuração do Samba como Controlador de Domínio no Alpine Linux
 
 ## 1. Configuração de Hostname e Hosts

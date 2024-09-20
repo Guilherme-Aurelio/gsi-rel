@@ -8,7 +8,7 @@ Usando comando `samba-tool`, crie 4 registros do DNS do tipo A (Vide Planilha pa
 Use o seguinte comando para listar todos os registros de sua zona:
 
 - `samba-tool dns query 127.0.0.1 "<estado>.lab" @ ALL -U administrator`
-
+--- 
 # Comandos samba-tool dns para Gerenciamento de Registros DNS
 
 ### O utilitário samba-tool permite gerenciar várias funcionalidades do Samba, incluindo a configuração e manipulação de registros DNS em um ambiente de Active Directory. Abaixo estão os comandos utilizados para adicionar e consultar registros DNS no Samba.
