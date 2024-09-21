@@ -73,15 +73,15 @@ samba-tool dns query localhost goias.lab @ ALL -U administrator
 
 ## Explicação dos parâmetros:
 
-### localhost: O servidor DNS onde a consulta será feita.
+- `localhost`: O servidor DNS onde a consulta será feita.
 
-### goias.lab: O domínio para o qual os registros DNS serão consultados.
+- `goias.lab`: O domínio para o qual os registros DNS serão consultados.
 
-### @: Refere-se à zona DNS raiz para o domínio.
+- `@`: Refere-se à zona DNS raiz para o domínio.
 
-### ALL: Especifica que todos os tipos de registros DNS devem ser consultados.
+- `ALL`: Especifica que todos os tipos de registros DNS devem ser consultados.
 
-### -U administrator: Indica que o comando está sendo executado pelo usuário 'administrator' (será solicitada a senha).  
+- `-U administrator`: Indica que o comando está sendo executado pelo usuário 'administrator' (será solicitada a senha).  
 
 ---
 #### Saída do Query após criação dos registros:

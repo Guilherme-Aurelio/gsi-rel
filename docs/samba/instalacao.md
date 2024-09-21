@@ -102,7 +102,8 @@ nano /etc/samba/smb.conf
 ```
 
 ### Adicione a seguinte configuração mínima para o Samba como Controlador de Domínio:
-```bash
+
+```ini
 [global]
     server role = domain controller
     workgroup = GOIAS
